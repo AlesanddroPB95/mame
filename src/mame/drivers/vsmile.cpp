@@ -172,6 +172,24 @@ uint16_t vsmilem_state::porta_r(offs_t offset, uint16_t mem_mask)
 
 /************************************
  *
+ *  Non-V.Smile-specific
+ *
+ ************************************/
+
+void kzplayer_state::porta_w(offs_t offset, uint16_t data, uint16_t mem_mask)
+{
+	//printf("Port A write: %04x & %04x\n", data, mem_mask);
+}
+
+uint16_t kzplayer_state::porta_r(offs_t offset, uint16_t mem_mask)
+{
+	const uint16_t data = 0xc000;
+	//printf("Port A read: %04x & %04x\n", data, mem_mask);
+	return data;
+}
+
+/************************************
+ *
  *  Address Maps
  *
  ************************************/
@@ -257,6 +275,23 @@ static INPUT_PORTS_START( vsmilem )
 	PORT_BIT( 0xe0, 0x00, IPT_UNUSED )
 INPUT_PORTS_END
 
+static INPUT_PORTS_START( kzplayer )
+	PORT_START("REGION")
+	PORT_DIPNAME( 0x0f, 0x04, "sysrom Region" )
+	PORT_DIPSETTING(    0x04, "UK/US" )
+	PORT_DIPSETTING(    0x07, "China" )
+	PORT_DIPSETTING(    0x08, "Mexico" )
+	PORT_DIPSETTING(    0x0a, "Italy" ) // not valid on V.Smile Motion?
+	PORT_DIPSETTING(    0x0b, "Germany" )
+	PORT_DIPSETTING(    0x0c, "Spain" )
+	PORT_DIPSETTING(    0x0d, "France" )
+	PORT_DIPNAME( 0x10, 0x10, "VTech Intro" )
+	PORT_DIPSETTING(    0x00, "Off" )
+	PORT_DIPSETTING(    0x10, "On" )
+	PORT_BIT( 0xe0, 0x00, IPT_UNUSED )
+INPUT_PORTS_END
+
+
 /************************************
  *
  *  Machine Configs
@@ -320,7 +355,7 @@ void vsmile_state::vsmile(machine_config &config)
 
 	SOFTWARE_LIST(config, "cart_list").set_original("vsmile_cart");
 	SOFTWARE_LIST(config, "cart_list2").set_original("vsmilem_cart");
-}
+	SOFTWARE_LIST(config, "cart_list3").set_original("kzplayer_cart")
 
 void vsmile_state::vsmilep(machine_config &config)
 {
@@ -372,6 +407,27 @@ ROM_START( vsmilem )
 ROM_END
 
 
+
+ROM_START( kzplayer )
+	ROM_REGION16_BE( 0x800000, "sysrom", ROMREGION_ERASEFF )
+	ROM_SYSTEM_BIOS( 0, "bios0", "bios0" )
+	ROMX_LOAD( "KZPlayerBIOS.bin", 0x000000, 0x200000, CRC(60fa5426) SHA1(91e0b7b44b975df65095d6ee622436d65fb1aca5), ROM_GROUPWORD | ROM_REVERSE | ROM_BIOS(0) ) // from a US unit
+
+	/* This ROM doesn't show the 'Player' logo at all, but was dumped from a Player unit
+
+	    Console says "Vtech Kidizoom Player Multimedia Learning System"
+	    "FCC ID 62R-0788, IC 1135D-0788" "53-36600-056-080"
+	    melted into plastic "VT8282"
+	    The PCB has the code 35-078800-001-103_708979-2.
+	*/
+	ROM_SYSTEM_BIOS( 1, "bios1", "bios1" )
+	ROMX_LOAD( "KZPlayerPALBios.bin", 0x000000, 0x200000, CRC(427087ea) SHA1(dc9eaa55f4a0047b6069ef73beea86d26f0f5394), ROM_GROUPWORD | ROM_REVERSE | ROM_BIOS(1) ) // from a Spanish unit
+
+ROM_END
+
+
 //    year, name,    parent, compat, machine, input,   class,         init,       company, fullname,         flags
 CONS( 2005, vsmile,  0,      0,      vsmile,  vsmile,  vsmile_state,  empty_init, "VTech", "V.Smile",        MACHINE_IMPERFECT_SOUND | MACHINE_IMPERFECT_GRAPHICS )
 CONS( 2008, vsmilem, vsmile, 0,      vsmilem, vsmilem, vsmilem_state, empty_init, "VTech", "V.Smile Motion", MACHINE_IMPERFECT_SOUND | MACHINE_IMPERFECT_GRAPHICS )
+CONS( 2007, kzplayer, vsmile, 0,     kzplayer, kzplayer, kzplayer_state, empty_init, "VTech", "Kidizoom Player", MACHINE_IMPERFECT_SOUND | MACHINE_IMPERFECT_GRAPHICS | MACHINE_NOT_WORKING )
+
