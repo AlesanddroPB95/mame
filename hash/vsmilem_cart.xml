@@ -50,7 +50,7 @@ Language:
 |        | 80-084040(US)     | Scooby-Doo! - Funland Frenzy                                                              |
 |        | 80-084043(UK)     | Scooby-Doo! - Funland Frenzy                                                              |
 |        | 80-084044(GE)     | Scooby-Doo! - Im Lernpark                                                                 |
-|   XX   | 80-084045(FR)     | Scooby-Doo! - Panique à Funland                                                            |
+|   XX   | 80-084045(FR)     | Scooby-Doo! - Panique à Funland                                                           |
 |   XX   | 80-084047(SP)     | ¡¡Scooby-Doo!! - Misterio en el Parque                                                    |
 +========+===================+===========================================================================================+
 |        | 80-084060(US)     | Thomas and Friends - Engines Working Together                                             |
@@ -80,12 +80,12 @@ Language:
 |   XX   | 80-084160(US)     | Disney's Little Einsteins: The Glass Slipper Ball (Rev. 2?)                               |
 |   XX   | 80-084160(US)     | Disney's Little Einsteins: The Glass Slipper Ball (Rev. 5?)                               |
 |        | 80-084163(UK)     | Disney's Little Einsteins: The Glass Slipper Ball                                         |
+|   XX   | 80-084164(GE)     | <Unknown> (Should be german Original Disney's Little Einsteins: The Glass Slipper Ball)   |
 |   XX   | 80-084164(GE)     | Disney's Kleine Einsteins: Der Glaspantoffel-Ball                                         |
-|   XX   | 80-084164(GE)     | Disney's Kleine Einsteins: Der Glaspantoffel-Ball (Rev. 2?)                               |
 |        | 80-084167(SP)     | Little Einsteins de Disney: El Baile del Zapatito de Cristal                              |
 +========+===================+===========================================================================================+
 |   XX   | 80-084180(US)     | Mickey Mouse Clubhouse                                                                    |
-|        | 80-084182(NL)     | Mickey Mouse Clubhouse                                                                    |
+|        | 80-084182(NL)     | <Unknown> (Should Be Orange Mickey Mouse Clubhuis)                                        |
 |        | 80-084183(UK)     | Mickey Mouse Clubhouse                                                                    |
 |   XX   | 80-084184(GE)     | Micky Maus Wunderhaus                                                                     |
 |        | 80-084185(FR)     | La Maison de Mickey (ever released?)                                                      |
@@ -238,7 +238,7 @@ Language:
 
 	<software name="actnmniam6">
 		<description>Action Mania (USA, Rev. 6?)</description>
-		<year>201?</year>
+		<year>2008</year>
 		<publisher>VTech</publisher>
 		<info name="serial" value="80-084000(US)" />
 		<part name="cart" interface="vsmile_cart">
@@ -251,7 +251,7 @@ Language:
 
 	<software name="actnmniam4" cloneof="actnmniam6">
 		<description>Action Mania (USA, Rev. 4?)</description>
-		<year>201?</year>
+		<year>2008</year>
 		<publisher>VTech</publisher>
 		<info name="serial" value="80-084000(US)" />
 		<part name="cart" interface="vsmile_cart">
@@ -635,7 +635,7 @@ Language:
 	</software>
 
 	<software name="ltleinstnmg2" cloneof="ltleinstnm5">
-		<description>Disney's Kleine Einsteins (Germany, Rev. 2?)</description>
+		<description>Disney's ?????? Einsteins (Germany)</description>
 		<year>2009</year>
 		<publisher>VTech</publisher>
 		<info name="serial" value="80-084164(GE)" />
@@ -1348,6 +1348,21 @@ Language:
 			<feature name="u1" value="" /> <!-- EPOXY BLOB ROM -->
 			<dataarea name="rom" size="0x0800000">
 				<rom name="80-084103 - Wonder Pets - Save the Animals (UK) (Motion).bin" size="0x0800000" crc="29650608" sha1="66ec3ce1316265dec08f91dcca5709b57ee554cc" />
+			</dataarea>
+		</part>
+	</software>
+	
+	<software name="ratatoingcn">
+		<description>Ratatoing (Unofficial)</description>
+		<year>2007</year>
+		<publisher>VTech</publisher>
+		<info name="serial" value="80-??????????)" />
+		<part name="cart" interface="vsmile_cart">
+			<feature name="pcb" value="708106" />
+			<feature name="pcb_model" value="708106-3" />
+			<feature name="u1" value="" /> <!-- EPOXY BLOB ROM -->
+			<dataarea name="rom" size="0x0800000">
+				<rom name="80-084103 - Ratatoing (Motion).bin" size="0x0800000" crc="29650608" sha1="66ec3ce1316265dec08f91dcca5709b57ee554cc" />
 			</dataarea>
 		</part>
 	</software>
