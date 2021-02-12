@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
 <!--
 license:CC0
@@ -105,7 +105,18 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="dzuggerg" supported="no">
+	<software name="dzugger" supported="no">
+		<description>Dinosaur Train - Explore The World (USA)</description>
+		<year>2014</year>
+		<publisher>VTech</publisher>
+		<info name="serial" value="80-252300(US)"/>
+		<part name="cart" interface="mobigo_cart">
+			<dataarea name="rom" size="0x1000000">
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="dzuggerg" cloneof"dzugger" supported="no">
 		<description>Dino-Zug - Erforsche die Welt (Germany)</description>
 		<year>2014</year>
 		<publisher>VTech</publisher>
@@ -153,7 +164,18 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="dorag" supported="no">
+	<software name="dora" supported="no">
+		<description>Nickelodeon Dora The Explorer - Twins' Day (USA)</description>
+		<year>2010</year>
+		<publisher>VTech</publisher>
+		<info name="serial" value="80-250800(US)"/>
+		<part name="cart" interface="mobigo_cart">
+			<dataarea name="rom" size="0x1000000">
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="dorag" cloneof="dora"supported="no">
 		<description>Nickelodeon Dora - Tag des Zwillings (Germany)</description>
 		<year>2010</year>
 		<publisher>VTech</publisher>
@@ -161,6 +183,17 @@ license:CC0
 		<part name="cart" interface="mobigo_cart">
 			<dataarea name="rom" size="0x1000000">
 				<rom name="80-250804 - dora - tag des zwillings (ger).bin" size="0x1000000" crc="4d38d6be" sha1="fe6ec3c4febb91f7f5d2450ce1a8a78956e2c453"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="hkitty" supported="no">
+		<description>Hello Kitty - Hello Kitty Birthday Party! (USA)</description>
+		<year>2012</year>
+		<publisher>VTech</publisher>
+		<info name="serial" value="80-252404(GER)"/>
+		<part name="cart" interface="mobigo_cart">
+			<dataarea name="rom" size="0x1000000">
 			</dataarea>
 		</part>
 	</software>
@@ -225,8 +258,8 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="mickey" supported="no"> <!-- part #? full title? region? -->
-		<description>Mickey Mouse</description>
+	<software name="mickeych" supported="no">
+		<description>Mickey Mouse Clubhouse (USA)</description>
 		<year>201?</year>
 		<publisher>VTech</publisher>
 		<part name="cart" interface="mobigo_cart">
@@ -236,7 +269,7 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="mickeyg" cloneof="mickey" supported="no"> <!-- By now, cloneof "mickey" -->
+	<software name="mickeychg" cloneof="mickeych" supported="no">
 		<description>Disney Micky Maus - Wunderhaus (Germany)</description>
 		<year>2010</year>
 		<publisher>VTech</publisher>
@@ -248,7 +281,7 @@ license:CC0
 		</part>
 	</software>
 
-	<software name="mickeys" cloneof="mickey" supported="no"> <!-- By now, cloneof "mickey" -->
+	<software name="mickeychs" cloneof="mickeych" supported="no">
 		<description>Disney La Casa de Mickey Mouse (Spain)</description>
 		<year>2011</year>
 		<publisher>VTech</publisher>
