@@ -71,7 +71,7 @@ license:CC0
 
 	<software name="chuggg" supported="no">
 		<description>Chuggington (Germany)</description>
-		<year>201?</year>
+		<year>2011</year>
 		<publisher>VTech</publisher>
 		<info name="serial" value="80-251804(GER)"/>
 		<part name="cart" interface="mobigo_cart">
@@ -215,7 +215,7 @@ license:CC0
 
 	<software name="kfpand2g" supported="no">
 		<description>DreamWorks Kung Fu Panda 2 (Germany)</description>
-		<year>201?</year>
+		<year>2011</year>
 		<publisher>VTech</publisher>
 		<info name="serial" value="80-252004(GER)"/>
 		<part name="cart" interface="mobigo_cart">
@@ -226,8 +226,8 @@ license:CC0
 	</software>
 
 	<software name="mickey" supported="no"> <!-- part #? full title? region? -->
-		<description>Mickey Mouse</description>
-		<year>201?</year>
+		<description>Bob the Builder - Project Build It! - Race To The Finish (USA)</description>
+		<year>2010</year>
 		<publisher>VTech</publisher>
 		<part name="cart" interface="mobigo_cart">
 			<dataarea name="rom" size="0x1000000">
@@ -237,7 +237,7 @@ license:CC0
 	</software>
 
 	<software name="mickeyg" cloneof="mickey" supported="no"> <!-- By now, cloneof "mickey" -->
-		<description>Disney Micky Maus - Wunderhaus (Germany)</description>
+		<description>Bob der Baumeister - Projekt Build It! - Rennen bis zum Ziel (Germany)</description>
 		<year>2010</year>
 		<publisher>VTech</publisher>
 		<info name="serial" value="80-250504(GER)"/>
@@ -249,7 +249,7 @@ license:CC0
 	</software>
 
 	<software name="mickeys" cloneof="mickey" supported="no"> <!-- By now, cloneof "mickey" -->
-		<description>Disney La Casa de Mickey Mouse (Spain)</description>
+		<description>Bob y sus amigos - ¡Proyecto construye! - Carrera hasta la meta (Spain)</description>
 		<year>2011</year>
 		<publisher>VTech</publisher>
 		<info name="serial" value="80-250522(SP)"/>
@@ -346,7 +346,7 @@ license:CC0
 
 	<software name="shrekfag" cloneof="shrekfa" supported="no">
 		<description>DreamWorks Für immer Shrek (Germany)</description>
-		<year>201?</year>
+		<year>2010</year>
 		<publisher>VTech</publisher>
 		<info name="serial" value="80-250004(GER)"/>
 		<part name="cart" interface="mobigo_cart">
@@ -418,7 +418,7 @@ license:CC0
 
 	<software name="tangled" supported="no"> <!-- part #? full title? region? -->
 		<description>Tangled</description>
-		<year>201?</year>
+		<year>2011</year>
 		<publisher>VTech</publisher>
 		<part name="cart" interface="mobigo_cart">
 			<dataarea name="rom" size="0x1000000">
@@ -489,7 +489,7 @@ license:CC0
 
 	<software name="tstory3g" supported="no">
 		<description>Disney/Pixar Toy Story 3 (Germany)</description>
-		<year>201?</year>
+		<year>2010</year>
 		<publisher>VTech</publisher>
 		<info name="serial" value="80-250104(GER)"/>
 		<part name="cart" interface="mobigo_cart">
@@ -501,7 +501,7 @@ license:CC0
 
 	<software name="tstory3a" supported="no"> <!-- part #? full title? region? -->
 		<description>Disney/Pixar Toy Story 3</description>
-		<year>201?</year>
+		<year>2010</year>
 		<publisher>VTech</publisher>
 		<part name="cart" interface="mobigo_cart">
 			<dataarea name="rom" size="0x1000000">
@@ -512,7 +512,7 @@ license:CC0
 
 	<software name="uspidg" supported="no">
 		<description>Marvel Ultimate Spider-Man (Germany)</description>
-		<year>201?</year>
+		<year>2013</year>
 		<publisher>VTech</publisher>
 		<info name="serial" value="80-253604(GER)"/>
 		<part name="cart" interface="mobigo_cart">
@@ -527,7 +527,7 @@ license:CC0
 	         Maybe move into driver as a hardcodd cart once BIOS is dumped rather than having it here? -->
 	<software name="kioskg" supported="no">
 		<description>Mobigo Kiosk (Germany)</description>
-		<year>201?</year>
+		<year>2011</year>
 		<publisher>VTech</publisher>
 		<part name="cart" interface="mobigo_cart">
 			<dataarea name="rom" size="0x2000000">
@@ -539,7 +539,7 @@ license:CC0
 	<!-- these have downloaded games on them, they do however appear to be tied to the machine that downloaded them, on other units they appear as blank -->
 	<software name="user1" supported="no">
 		<description>NAND User Cartridge (unknown data, set 1)</description>
-		<year>201?</year>
+		<year>2010</year>
 		<publisher>VTech</publisher>
 		<part name="cart" interface="mobigo_cart">
 			<dataarea name="rom" size="0x8400000">
@@ -550,7 +550,7 @@ license:CC0
 
 	<software name="user2" supported="no">
 		<description>NAND User Cartridge (unknown data, set 2)</description>
-		<year>201?</year>
+		<year>2012</year>
 		<publisher>VTech</publisher>
 		<part name="cart" interface="mobigo_cart">
 			<dataarea name="rom" size="0x8400000">
