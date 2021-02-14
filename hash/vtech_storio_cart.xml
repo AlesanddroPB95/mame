@@ -152,7 +152,7 @@ license:CC0
 	</software>
 
 	<software name="mickeychgr" supported="no">
-		<description>Micky Maus Wunderhaus (Germany)</description>
+		<description> Disney Princess - Mickey Mouse Clubhuis - Mickey zoekt en vindt! (Netherlands)</description>
 		<year>2011</year>
 		<publisher>VTech</publisher>
 		<part name="cart" interface="vtech_storio_cart">
