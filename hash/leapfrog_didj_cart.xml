@@ -69,5 +69,16 @@
 			</dataarea>
 		</part>
 	</software>
+	
+	<software name="mickywunderhs" supported="no">
+		<description>Micky Maus Wunderhaus (Germany)</description>
+		<year>2011</year>
+		<publisher>VTech</publisher>
+		<part name="cart" interface="leapfrog_didj_cart">
+			<dataarea name="rom" size="0x4200000" width="32" endianness="big">
+				<rom loadflag="load16_word_swap" name="80-281004 - Micky Maus Wunderhaus (GER).bin" size="0x4200000" crc="036fc056" sha1="28f5b7c13eaceadeca5f4e8ec8b1ef2f2d85d1ba" offset="0" />
+			</dataarea>
+		</part>
+	</software>
 
 </softwarelist>
