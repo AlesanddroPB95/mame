@@ -80,7 +80,7 @@ ________________________________________________________________________________
      | 80-093220(US)   | National Geographic Kids
 __________________________________________________________________________________________
      | 80-093600(US)   | <Unknown>
-     | 80-093604(GE)   | Multisports
+ *** | 80-093604(GE)   | Multisports
      | 80-093605(FR)   | Defis Sports
 __________________________________________________________________________________________
 -->
@@ -130,7 +130,7 @@ ________________________________________________________________________________
 		</part>
 	</software>
 
-	<software name="spidermng" cloneof="spidermnr2" supported="no">
+	<software name="spidermnge" cloneof="spidermnr2" supported="no">
 		<!--
 		Original files (from TeamEurope)
 		<rom name="93064_000.bin" size="378956592" crc="5039f062" sha1="80a0ae321273a4b7190ba79854b21fdfb96b75f4" />
@@ -156,7 +156,7 @@ ________________________________________________________________________________
 	Ring 1: "59-93067-000-001*", "IFPI 0949", "59-93067-000-001"
 	Ring 2: "07/07/07 &minus;&minus; 149550 &minus;&minus; A", "IFPI LQ35"
 	-->
-	<software name="spidermns" cloneof="spidermnr2" supported="no">
+	<software name="spidermnsp" cloneof="spidermnr2" supported="no">
 		<description>El Asombroso Spider-Man - Persecución en la Ciudad (Spa)</description>
 		<year>200?</year>
 		<publisher>VTech</publisher>
@@ -196,7 +196,7 @@ ________________________________________________________________________________
 	Ring 1: "59-093147-000-001*", "IFPI 0926", "59-93167-000-001"
 	Ring 2: "03/17/08 &minus;&minus; 157050 &minus;&minus; A", "IFPI LQ35"
 	-->
-	<software name="bratzs" cloneof="bratz" supported="no">
+	<software name="bratzsp" cloneof="bratz" supported="no">
 		<description>Bratz - El Misterio del Collar (Spa)</description>
 		<year>200?</year>
 		<publisher>VTech</publisher>
@@ -268,7 +268,7 @@ ________________________________________________________________________________
 		</part>
 	</software>
 
-	<software name="carsg" cloneof="carsr1" supported="no">
+	<software name="carsgr" cloneof="carsr1" supported="no">
 		<!--
 		 Original files (from TeamEurope)
 		 <rom name="93104_000.bin" size="562353792" crc="e487ef85" sha1="2794bb37d03435c1318ee632d067d64aaecbbebf" />
@@ -294,7 +294,7 @@ ________________________________________________________________________________
 	Ring 1: "59-93107-000-001*", "IFPI 0931", "59-93-107-000-001"
 	Ring 2: "08/15/07 &minus;&minus; 150750 &minus;&minus; A", "IFPI LQ35"
 	-->
-	<software name="carss" cloneof="carsr1" supported="no">
+	<software name="carssp" cloneof="carsr1" supported="no">
 		<description>Cars - El Carril Rápido (Spa)</description>
 		<year>200?</year>
 		<publisher>VTech</publisher>
@@ -325,7 +325,7 @@ ________________________________________________________________________________
 		</part>
 	</software>
 
-	<software name="princessg" cloneof="princess" supported="no">
+	<software name="princessge" cloneof="princess" supported="no">
 		<!--
 		 Original files (from TeamEurope)
 		 <rom name="93004.bin" size="467570544" crc="f919071f" sha1="d50f91fb7c79b8851cb3b6fbb80b66d78def511e" />
@@ -351,7 +351,7 @@ ________________________________________________________________________________
 	Ring 1: "59-93007-000-001*", "IFPI 0907", "59-93007-000-001"
 	Ring 2: "07/07/07 &minus;&minus; 149549 &minus;&minus; A", "IFPI LQ35"
 	-->
-	<software name="princesss" cloneof="princess" supported="no">
+	<software name="princesssp" cloneof="princess" supported="no">
 		<description>Disney Princess - El Castillo de las Princesas (Spa)</description>
 		<year>200?</year>
 		<publisher>VTech</publisher>
@@ -381,7 +381,7 @@ ________________________________________________________________________________
 		</part>
 	</software>
 
-	<software name="incredibg" cloneof="incredib" supported="no">
+	<software name="incredibge" cloneof="incredib" supported="no">
 		<!--
 		Original files (from TeamEurope)
 		<rom name="93024.bin" size="365481984" crc="4ac35678" sha1="6745971dab69942f85d32a4e1484b9d79c2163ee" />
@@ -407,7 +407,7 @@ ________________________________________________________________________________
 	Ring 1: "59-93027-000-001*", "IFPI 0949", "59-93027-000-001"
 	Ring 2: "08/16/07 &minus;&minus; 150762 &minus;&minus; A", "IFPI LQ35", "V"
 	-->
-	<software name="incredibs" cloneof="incredib" supported="no">
+	<software name="incredibsp" cloneof="incredib" supported="no">
 		<description>Disney/Pixar Los Increíbles - Misión Increíble (Spa)</description>
 		<year>200?</year>
 		<publisher>VTech</publisher>
@@ -419,7 +419,7 @@ ________________________________________________________________________________
 		</part>
 	</software>
 
-	<software name="msportg" supported="no">
+	<software name="msportge" supported="no">
 		<!--
 		 Original files (from TeamEurope)
 		 <rom name="93204_000.bin" size="295248912" crc="fd73e33a" sha1="091567e473d996182c5157f2f34b729f2bc7dcff" />
@@ -464,7 +464,7 @@ ________________________________________________________________________________
 	Ring 1: "59-93087-000-001*", "IFPI 0946", "59-93027-000-001"
 	Ring 2: "07/10/07 &minus;&minus; 049620 &minus;&minus; A", "IFPI LQ35"
 	-->
-	<software name="scoobys" cloneof="scooby" supported="no">
+	<software name="scoobysp" cloneof="scooby" supported="no">
 		<description>Scooby-Doo: Viaje al Pasado (Spa)</description>
 		<year>200?</year>
 		<publisher>VTech</publisher>
@@ -515,7 +515,7 @@ ________________________________________________________________________________
 		</part>
 	</software>
 
-	<software name="shrek3g" cloneof="shrek3" supported="no">
+	<software name="shrek3ge" cloneof="shrek3" supported="no">
 		<!--
 		Original files (from TeamEurope)
 		<rom name="93144_000.bin" size="623663376" crc="968ff493" sha1="28c486e6b5b9c6e4e79aa3151be82534f0f1245f" />
@@ -540,7 +540,7 @@ ________________________________________________________________________________
 	Ring 1: "59-93147-000-001*", "IFPI 0907", "59-93147-000-001"
 	Ring 2: "11/15/07 &minus;&minus; 153583 &minus;&minus; A", "IFPI LQ35"
 	-->
-	<software name="shrek3s" cloneof="shrek3" supported="no">
+	<software name="shrek3sp" cloneof="shrek3" supported="no">
 		<description>Shrek Tercero - ¿Dónde Está Arturo? (Spa)</description>
 		<year>200?</year>
 		<publisher>VTech</publisher>
@@ -616,7 +616,7 @@ ________________________________________________________________________________
 	Ring 1: "59-93044-000-001*", "IFPI 0907", "59-93044-000-001"
 	Ring 2: "07/07/07 &minus;&minus; 149551 &minus;&minus; A", "IFPI LQ35"
 	-->
-	<software name="spongeisg" cloneof="spongeisr2" supported="no">
+	<software name="spongeisge" cloneof="spongeisr2" supported="no">
 		<description>Nick SpongeBob Schwammkopf: Ein Schwamm voller Ideen (Ger)</description>
 		<year>200?</year>
 		<publisher>VTech</publisher>
@@ -637,7 +637,7 @@ ________________________________________________________________________________
 	Ring 1: "59-93047-000-001*", "IFPI 0999", "59-93047-000-001"
 	Ring 2: "02/01/06 &minus;&minus; 155691 &minus;&minus; A", "IFPI LQ35"
 	-->
-	<software name="spongeiss" cloneof="spongeisr2" supported="no">
+	<software name="spongeissp" cloneof="spongeisr2" supported="no">
 		<description>Nickelodeon Bob Esponja - Misión Esponja (Spa)</description>
 		<year>200?</year>
 		<publisher>VTech</publisher>
@@ -707,7 +707,7 @@ ________________________________________________________________________________
 		</part>
 	</software>
 
-	<software name="wackyracg" cloneof="wackyracr3" supported="no">
+	<software name="wackyracge" cloneof="wackyracr3" supported="no">
 		<!--
 		Original files (from TeamEurope)
 		<rom name="93124_000.bin" size="457901472" crc="92a0ebe0" sha1="a3a8e54d5f12094bfc0c89954987cc793d83d3f9" />
@@ -731,7 +731,7 @@ ________________________________________________________________________________
 	Ring 1: "59-93127-000-001*", "IFPI 0946", "59-93-107-000-001"
 	Ring 2: "07/12/07 &minus;&minus; 149610 &minus;&minus; A", "IFPI LQ35"
 	-->
-	<software name="wackyracs" cloneof="wackyracr3" supported="no">
+	<software name="wackyracsp" cloneof="wackyracr3" supported="no">
 		<description>Carrera Loca en la Isla de las Vainas Fritas (Spa)</description>
 		<year>200?</year>
 		<publisher>VTech</publisher>
