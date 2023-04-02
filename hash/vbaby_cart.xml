@@ -51,6 +51,7 @@ VTech V.Baby cartridges.
 +========+===================+============================================================================+
 |        | 80-220000(US)     | The World of Eric Carle - The Very Hungry Caterpillar                      |
 +========+===================+============================================================================+
+|        | 80-220500-022(US) | In The Night Garden...                                                     |
 |  YES   | 80-220507-022(SP) | El Jardín de los Sueños...                                                 |
 +========+===================+============================================================================+
 |        | 80-220600(US)     | Backyardigans                                                              |
@@ -66,7 +67,7 @@ VTech V.Baby cartridges.
 	<!-- note these are NAND parts.
 	     the dump doesn't contain GPNANDNAND strings so probably not booted from? -->
 
-	<software name="eljardin" supported="no">
+	<software name="nightgarsp" supported="no">
 		<description>El Jardín de los Sueños... (Spain)</description>
 		<year>2007</year>
 		<publisher>VTech</publisher>
