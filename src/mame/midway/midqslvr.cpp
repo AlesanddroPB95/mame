@@ -546,4 +546,4 @@ GAME(2000, offrthnd,    0,        midqslvr, 0, midway_quicksilver2_state, empty_
 GAME(2001, arctthnd,    0,        graphite, 0, midway_graphite_state, empty_init, ROT0, "Midway Games", "Arctic Thunder (v1.002)", MACHINE_IS_SKELETON)
 
 GAME(2001, ultarctc,    0,        graphite, 0, midway_graphite_state, empty_init, ROT0, "Midway Games", "Ultimate Arctic Thunder", MACHINE_IS_SKELETON)
-GAME(2004, ultarctcup,  ultarctc, graphite, 0, midway_graphite_state, empty_init, ROT0, "Midway Games", "Ultimate Arctic Thunder Update CD ver 1.950 (5/3/04)", MACHINE_IS_SKELETON)
+GAME(2004, ultarctcup,  ultarctc, graphite, 0, midway_graphite_state, empty_init, ROT0, "Raw Thrills", "Ultimate Arctic Thunder Update CD ver 1.950 (5/3/04)", MACHINE_IS_SKELETON)
