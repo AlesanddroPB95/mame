@@ -131,7 +131,7 @@ ROM_START(timecrs5)
 	ROM_REGION(0x2000, ":pic", 0)
 	ROM_LOAD("TimeCrisis5Dongle.bin", 0, 0x2000, CRC(ef4a120c) SHA1(fcc0386fa708af9e010e40e1d259a6bd95e8b9e2))  // PIC was added from Rev A
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("TimeCrisis5RevB", 0, SHA1(67f2565338f1e8df4c6cfc83447f490f75541b16))
 ROM_END
 
@@ -141,7 +141,7 @@ ROM_START(timecrs5a)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0427 / 317-0427-COM
 	ROM_LOAD("TimeCrisis5Dongle.bin", 0, 0x2000, CRC(ef4a120c) SHA1(fcc0386fa708af9e010e40e1d259a6bd95e8b9e2))  // PIC was added from Rev A
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("TimeCrisis5", 0, SHA1(46544e28735f55418dd78bd19446093874438264))
 ROM_END
 
@@ -151,7 +151,7 @@ ROM_START(starwsbp)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0438 / 317-0438-COM
 	ROM_LOAD("StarWarsDongle.bin", 0, 0x2000, CRC(9aeb15d3) SHA1(405ddc44b2b40b72cfe2a081a0d5e43ceb9a380e))
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("StarWarsBattlePod", 0, NO_DUMP)
 ROM_END
 
@@ -161,7 +161,7 @@ ROM_START(lostland)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0440 / 317-0440-COM
 	ROM_LOAD("LostLandDongle.bin", 0, 0x2000, CRC(8d09e717) SHA1(6b25982f7042541874115d33ea5d0c028140a962))
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("LostLandAdventure", 0, NO_DUMP)
 ROM_END
 
@@ -171,7 +171,7 @@ ROM_START(pointblx)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0442 / 317-0442-COM
 	ROM_LOAD("PointBlankXDongle.bin", 0, 0x2000, CRC(b706efbb) SHA1(97c2b65e521113c5201f0b588fcb37a39148a637))
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("GunbulletX", 0, NO_DUMP)
 ROM_END
 
@@ -181,7 +181,7 @@ ROM_START(mkdx110j)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0452 / 317-0452-COM (to verify, may be the one for OutRun 2 Special Tours)
 	ROM_LOAD("MarioKartDXDongle.bin", 0, 0x2000, CRC(f5b7bb3f) SHA1(6b179b255b3d29e5ce61902eeae4da07177a2943))
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("MarioKartArcadeGPDLX_1.10_JAPAN", 0, NO_DUMP)
 ROM_END
 
@@ -191,7 +191,7 @@ ROM_START(mkdx118j)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0434 / 317-0434-COM
 	ROM_LOAD("MarioKartDXDongle.bin", 0, 0x2000, CRC(f5b7bb3f) SHA1(6b179b255b3d29e5ce61902eeae4da07177a2943))
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("MarioKartArcadeGPDLX_1.18_JAPAN", 0, NO_DUMP)
 ROM_END
 
@@ -201,7 +201,7 @@ ROM_START(mkdx)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0506 / 317-0506-JPN
 	ROM_LOAD("MarioKartDXDongle.bin", 0, 0x2000, CRC(f5b7bb3f) SHA1(6b179b255b3d29e5ce61902eeae4da07177a2943))
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("MarioKartArcadeGPDX_EXPORT_RevB", 0, SHA1(1fd689753c4b70dff0286cb7f623ee7fd439db62))
 ROM_END
 
@@ -211,14 +211,14 @@ ROM_START(mkdx104u)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0491 / 317-0491-COM
 	ROM_LOAD("MarioKartDXDongle.bin", 0, 0x2000, CRC(f5b7bb3f) SHA1(6b179b255b3d29e5ce61902eeae4da07177a2943))
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("MarioKartArcadeGPDX_EXPORT_RevA", 0, SHA1(da1aacee9e32e813844f4d434981e69cc5c80682))
 ROM_END
 
 ROM_START(gundames3)
 	ES3_BIOS
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("GundamES3", 0, SHA1(256d9e8a6d61e1bcf65b17b8ed70fbc58796f7b1))
 ROM_END
 
@@ -228,7 +228,7 @@ ROM_START(machstom)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0486E / 317-0486-COM
 	ROM_LOAD("MachstormDongle.bin", 0, 0x2000, NO_DUMP)
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("Machstorm_Japan", 0, SHA1(e43e6d22fab4eceb81db8309e4634e049d9c41e6))
 ROM_END
 
@@ -238,7 +238,7 @@ ROM_START(mchstrmx)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0486E / 317-0486-COM
 	ROM_LOAD("MachstormDongle.bin", 0, 0x2000, NO_DUMP)
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("Machstorm_International", 0, SHA1(b1919f28539afec4c4bc52357e5210a090b5ae32))
 ROM_END
 
@@ -248,7 +248,7 @@ ROM_START(tekken7)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0504 / 317-0504-COM
 	ROM_LOAD("Tekken7Dongle.bin", 0, 0x2000, CRC(ae7eaea8) SHA1(187e417e0b5543d95245364b547925426aa9f80e))
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("TekkenVII", 0, SHA1(914aa23ece8aaf0f1942f77272b3a87d10f7a7db))
 ROM_END
 
@@ -258,7 +258,7 @@ ROM_START(tekken71)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0550 / 317-0550-JPN
 	ROM_LOAD("Tekken7FRDongle.bin", 0, 0x2000, CRC(7e247f13) SHA1(d416b0e7742b32eb31443967e84ef93fc9e56dfb))
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("Tekken7FatedRetribution", 0, NO_DUMP)
 ROM_END
 
@@ -268,7 +268,7 @@ ROM_START(tekken72)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0512 / 317-0512-COM
 	ROM_LOAD("Tekken7FRR2Dongle.bin", 0, 0x2000, NO_DUMP)
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("Tekken7FatedRetributionR2", 0, SHA1(0c3b87b7309cf67ece54fc5cd5bbcfc7dc04083f))
 ROM_END
 
@@ -278,7 +278,7 @@ ROM_START(wmmt5)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0540 / 317-0540-COM
 	ROM_LOAD("Wangan5JPNDongle.bin", 0, 0x2000, CRC(fd9a7bc0) SHA1(140b05573e25a41c1237c7a96c8e099efbfd75b8))
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("WanganMT5_Japan", 0, SHA1(1f3401b652c45db2b843360aff9cda862c2832c0))
 ROM_END
 
@@ -292,7 +292,7 @@ ROM_END
 ROM_START(es3Win7)
 	ES3_BIOS
 
-	DISK_REGION("dvd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("Win7OS", 0, SHA1(362ac028ba19ba4762678953a033034a5ee8ad53))
 ROM_END
 
@@ -304,7 +304,7 @@ ROM_START(alpiner4)
 	ROM_REGION(0x2000, ":pic", 0) // PIC security 253-5508-0540 / 317-0540-COM
 	ROM_LOAD("RTHASP_Alpine_Dongle.bin", 0, 0x2000, CRC(fd9a7bc0) SHA1(140b05573e25a41c1237c7a96c8e099efbfd75b8))
 
-	DISK_REGION("hdd")
+	DISK_REGION("ide:0:hdd:image")
 	DISK_IMAGE_READONLY("SuperAlpineRacer", 0, SHA1(1f3401b652c45db2b843360aff9cda862c2832c0)) // can be changed to English by accesing the service menu
 ROM_END
 
